@@ -1,0 +1,13 @@
+it Temporarily saves changes you have made to your working copy so you can work on another task. Its like a back up.
+ Stashing is handy if you need to quickly switch context and work on something else, but you're mid-way through a code change and aren't quite ready to commit.
+ git stash (OR) git stash save "Updated some code"
+ git stash list
+ git stash show: this command shows the summar=y of stash diffd. The command considers only the latest stash.
+ git stash show -p: gives you the detailed list of differences. see 7-12
+ show stash@{1}:
+git stash apply stash@{0}:
+git stash drop stash@{0} :
+git stash list vim land.txt git 
+stash
+git stash list
+git stash pop
