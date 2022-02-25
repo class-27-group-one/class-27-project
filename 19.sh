@@ -13,4 +13,3 @@ else
         echo "${PASSED} is not valid a file or directory";
     fi
 fi
-
